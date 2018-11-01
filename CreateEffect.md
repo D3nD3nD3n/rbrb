@@ -10,15 +10,15 @@ The function responsible for creating effects is located at rabiribi.exe+13C90. 
 2. Size (Float)
 3. Speed (Float)
 4. Angle (Float)
-5. Transparency (Int)
-6. Behavior (Int)
-7. Sprite (Int)
-8. Layer (Int)
-9. Var 5 (Int)
-10. Var 4 (Int)
-11. Var 3 (Int)
-12. Var 2 (Int)
-13. Var 1 (Int)
+5. Transparency (4 byte)
+6. Behavior (4 byte)
+7. Sprite (4 byte)
+8. Layer (4 byte)
+9. Var 5 (4 byte)
+10. Var 4 (4 byte)
+11. Var 3 (4 byte)
+12. Var 2 (4 byte)
+13. Var 1 (4 byte)
 
 The following registers should hold the remaining variables:
 
@@ -26,9 +26,9 @@ The following registers should hold the remaining variables:
 
 **XMM3:** X Position (Float)
 
-**ECX:** Sound (Int)
+**ECX:** Sound (4 byte)
 
-**EDX:** Effect Type (Int)
+**EDX:** Effect Type (4 byte)
 
 ### Variable Details
 Some variables can be easily explained while others just require testing.
